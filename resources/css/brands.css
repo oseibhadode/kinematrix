@@ -22,20 +22,6 @@ font-family: 'Josefin Sans' , sans-serif;
   margin-top: 0.2rem;
 }
 
-.jumbotron {
-  height: 44rem;
-  padding-top: 10rem;
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 5rem;
-}
-
-.jumbotron-kinematrix {
-  background-image: url('../images/jumbotron-kinematrix.jpg');
-  background-size: cover;
-}
-
 span .img-responsive {
   display: none;
 }
@@ -45,12 +31,25 @@ span .img-responsive {
   font-family: 'Quicksand', sans-serif;
 }
 
-#message {
-  font-size: 14px;
+.message {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.message p {
+  margin-top: 5rem;
 }
 
 .image-container {
   overflow: hidden;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 668px;
+  width: 1000px;
 }
 
 .image-container img {
@@ -84,21 +83,20 @@ span .img-responsive {
 
 
 .sectionmargin {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+}
+
+.sectionpadding {
+  padding-left: 29rem;
 }
 
 
 #align {
-  margin-top: 20rem;
+  margin-top: 1rem;
 }
 
 #align2 {
-  margin-top: 15rem;
-}
-
-.jumbotron-contact {
-  background-image: url('../images/jumbotron-contact.jpg');
-  background-size: cover;
+  margin-bottom: 2rem;
 }
 
 #bold {
@@ -106,31 +104,15 @@ span .img-responsive {
   font-weight: bold;
 }
 
-.contact {
-  height: 44rem;
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 2rem;
-  color: white;
+#orangelink {
+  color: #fd8230;
 }
 
-#contact {
-  margin-top: 30rem;
-  font-size: 1.5rem;
-  text-shadow: 1px 1px 2px black;
+.backhome {
+  text-align: center;
 }
 
 @media only screen and (max-width: 960px) {
-
-span .img-responsive {
-  margin-bottom: 5rem;
-  display: block;
-}
-
-.jumbotron {
-    display: none;
-  }
 
 #align {
   margin-top: 1rem;
@@ -150,23 +132,11 @@ span .img-responsive {
   transform: none;
 }
 
-#contact {
-  margin-top: 20rem;
-}
 
 }
 
 @media only screen and (max-width: 720px) {
 
-span .img-responsive {
-  margin-top: 10rem;
-  display: block;
-}
-
-.jumbotron {
-    display: none;
-  }
-
 #align {
   margin-top: 1rem;
 }
@@ -183,10 +153,6 @@ span .img-responsive {
 .image-container img:hover {
   opacity: 1;
   transform: none;
-}
-
-#contact {
-  margin-top: 20rem;
 }
 
 }

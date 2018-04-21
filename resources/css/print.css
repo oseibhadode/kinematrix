@@ -1,7 +1,6 @@
 html {
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
-  background-color: #f8f8f8;
   margin: auto;
 }
 
@@ -25,15 +24,6 @@ font-family: 'Josefin Sans' , sans-serif;
 
 span .img-responsive {
   display: none;
-}
-
-.text-center {
-  margin-top: 31rem;
-  font-family: 'Quicksand', sans-serif;
-}
-
-#message {
-  font-size: 14px;
 }
 
 .image-container {
@@ -102,9 +92,11 @@ span .img-responsive {
   font-weight: bold;
 }
 
+#orangelink {
+  color: #fd8230;
+}
+
 .backhome {
-  /*margin-left: 37rem;*/
-  /*margin-bottom: 1rem;*/
   text-align: center;
 }
 
@@ -123,6 +115,16 @@ span .img-responsive {
   margin-top: 1rem;
 }
 
+.image-container img {
+  opacity: 1;
+  transition: none;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: none;
+}
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -138,6 +140,16 @@ span .img-responsive {
 
 #align2 {
   margin-top: 1rem;
+}
+
+.image-container img {
+  opacity: 1;
+  transition: none;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: none;
 }
 
 }
