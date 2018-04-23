@@ -23,17 +23,45 @@ font-family: 'Josefin Sans' , sans-serif;
 }
 
 #active {
-    color: #fd8230;
+  color: #fd8230;
+}
+
+.jumbotron {
+  height: 44rem;
+  margin-top: 2rem;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+}
+
+.jumbotron-a4G {
+  background-image: url('../images/digital/jumbotron-a4G.jpg');
+  background-size: cover;
+}
+
+.text-center {
+  margin-top: 31rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.message {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.message p {
+  margin-top: 5rem;
+}
+
+#message {
+  font-size: 14px;
 }
 
 .image-container {
   overflow: hidden;
-}
-
-.img-container {
-  overflow: hidden;
-  height: 668px;
-  width: 1000px;
 }
 
 .image-container img {
@@ -65,15 +93,9 @@ font-family: 'Josefin Sans' , sans-serif;
   margin-bottom: 1rem;
 }
 
-
 .sectionmargin {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
-
-.sectionpadding {
-  padding-left: 29rem;
-}
-
 
 #align {
   margin-top: 1rem;
@@ -84,16 +106,16 @@ font-family: 'Josefin Sans' , sans-serif;
 }
 
 #align3 {
-  margin-top: 3rem;
+  margin-top: 25rem;
+}
+
+#align4 {
+  margin-top: 17rem;
 }
 
 #bold {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-}
-
-#orangelink {
-  color: #fd8230;
 }
 
 .backhome {
@@ -112,27 +134,63 @@ font-family: 'Josefin Sans' , sans-serif;
   }
 }
 
-
 @media only screen and (max-width: 960px) {
 
+.jumbotron {
+  display: none;
+}
+
+.message {
+  margin-top: 7rem;
+  font-size: 1rem;
+}
+
+#align {
+  margin-top: 1rem;
+}
+
+#align2 {
+  margin-top: 1rem;
+}
+
 #align3 {
+  margin-top: 0;
+}
+
+#align4 {
   margin-top: 5rem;
+}
+
+.image-container img {
+  opacity: 1;
+  transition: none;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: none;
+}
+
+.sectionmargin {
+  margin-bottom: 2rem;
 }
 
 }
 
 @media only screen and (max-width: 720px) {
 
-#align3 {
-  margin-top: 9rem;
+.message {
+  margin-top: 12rem;
+  font-size: 1rem;
 }
 
 }
 
 @media only screen and (max-width: 360px) {
 
-#align3 {
-  margin-top: 10rem;
+.message {
+  margin-top: 12rem;
+  font-size: 0.8rem;
 }
 
 }

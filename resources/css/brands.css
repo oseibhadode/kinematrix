@@ -22,8 +22,8 @@ font-family: 'Josefin Sans' , sans-serif;
   margin-top: 0.2rem;
 }
 
-span .img-responsive {
-  display: none;
+#active {
+    color: #fd8230;
 }
 
 .text-center {
@@ -104,12 +104,20 @@ span .img-responsive {
   font-weight: bold;
 }
 
-#orangelink {
-  color: #fd8230;
-}
-
 .backhome {
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-container img {
+    opacity: 1;
+    transition: none;
+  }
+
+  .image-container img:hover {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @media only screen and (max-width: 960px) {
@@ -122,37 +130,21 @@ span .img-responsive {
   margin-top: 1rem;
 }
 
-.image-container img {
-  opacity: 1;
-  transition: none;
-}
-
-.image-container img:hover {
-  opacity: 1;
-  transform: none;
-}
-
-
 }
 
 @media only screen and (max-width: 720px) {
 
-#align {
-  margin-top: 1rem;
+.message {
+  margin-top: 12rem;
 }
 
-#align2 {
-  margin-top: 1rem;
 }
 
-.image-container img {
-  opacity: 1;
-  transition: none;
-}
+@media only screen and (max-width: 480px) {
 
-.image-container img:hover {
-  opacity: 1;
-  transform: none;
+.message {
+  margin-top: 12rem;
+  font-size: 0.9rem;
 }
 
 }
