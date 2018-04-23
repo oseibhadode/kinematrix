@@ -1,0 +1,130 @@
+html {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  margin: auto;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+
+h1 {
+font-family: 'Josefin Sans' , sans-serif;
+}
+
+.navbar {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  padding-right: 1rem;
+}
+
+.navbar-brand {
+  margin-top: 0.2rem;
+}
+
+#active {
+  color: #fd8230;
+}
+
+.about {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 5rem;
+}
+
+.text-center {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 0;
+  color: black;
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: #fd8230;
+  color: white;
+  border: 2px solid  #fd8230;
+}
+
+#sectionfont {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotron-contact {
+  background-image: url('../images/jumbotron-contact.jpg');
+  background-size: cover;
+}
+
+#bold {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.contact {
+  height: 44rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  color: white;
+}
+
+#contact {
+  margin-top: 25rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.backhome {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  #contact {
+    margin-top: 20rem;
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+p {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.about {
+  margin-top: 13rem;
+}
+
+#contact {
+  font-size: 1rem;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+p {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+}
